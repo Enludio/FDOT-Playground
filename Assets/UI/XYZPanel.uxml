@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="XYZPanel.uss" />
+    <ui:VisualElement name="root" class="root">
+        <ui:VisualElement name="xyz-panel" class="xyz-panel">
+            <ui:Slider name="slider-x" label="X" low-value="0" high-value="1" value="0.5" class="xyz-slider" />
+            <ui:Slider name="slider-y" label="Y" low-value="0" high-value="1" value="0.5" class="xyz-slider" />
+            <ui:Slider name="slider-z" label="Z" low-value="0" high-value="1" value="0.5" class="xyz-slider" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

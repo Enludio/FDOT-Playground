@@ -1,0 +1,28 @@
+/* Designed for a 1920x1080 reference resolution */
+.root {
+    flex-grow: 1;
+    justify-content: flex-end;   /* push panel to bottom */
+    align-items: flex-end;       /* push panel to right  */
+}
+
+.xyz-panel {
+    width: 360px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    padding: 16px 20px;
+    background-color: rgba(20, 20, 24, 0.75);
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.xyz-slider {
+    margin: 6px 0;
+}
+
+.xyz-slider > Label {
+    min-width: 24px;
+    font-size: 22px;
+    -unity-font-style: bold;
+    color: rgb(235, 235, 235);
+}
